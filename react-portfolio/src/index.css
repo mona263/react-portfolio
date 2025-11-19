@@ -1,0 +1,191 @@
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-primary); 
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body.light-theme .hero {
+  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+}
+
+body.light-theme .about {
+  background: var(--secondary-color);
+}
+
+body.light-theme .skills {
+  background: var(--primary-color);
+}
+
+body.light-theme .projects {
+  background: var(--secondary-color);
+}
+
+body.light-theme .contact {
+  background: var(--primary-color);
+}
+
+body.light-theme .footer {
+  background: var(--secondary-color);
+  color: var(--text-primary);
+}
+
+.about {
+  background: var(--secondary-color);
+}
+
+.about-content {
+  background: transparent;
+}
+
+.about-subtitle {
+  color: var(--text-primary); 
+}
+
+.about-description p {
+  color: var(--text-secondary); 
+}
+
+.image-wrapper {
+  background: var(--card-bg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--card-border);
+}
+
+.skills {
+  background: var(--primary-color);
+}
+
+.skill-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow-md);
+}
+
+.skill-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--accent-color);
+}
+
+.skill-name {
+  color: var(--text-primary);
+}
+
+
+.projects {
+  background: var(--secondary-color);
+}
+
+.project-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+}
+
+.project-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--accent-color);
+}
+
+.project-title {
+  color: var(--text-primary); 
+}
+
+.project-description {
+  color: var(--text-secondary); 
+}
+
+.contact {
+  background: var(--primary-color);
+}
+
+.contact-form {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+}
+
+.contact-info-title {
+  color: var(--text-primary); 
+}
+
+.contact-info-description {
+  color: var(--text-secondary); 
+}
+
+
+.footer {
+  background: var(--secondary-color);
+  color: var(--text-primary); 
+}
+
+.footer .text-gradient {
+  background: linear-gradient(135deg, #ffffff, #cbd5e1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-description {
+  color: var(--text-secondary); 
+}
+
+.footer-links a, .footer-links li {
+  color: var(--text-secondary); 
+}
+
+.footer-links a:hover {
+  color: var(--accent-color);
+}
+
+
+.header {
+  background: rgba(15, 20, 25, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header.scrolled {
+  background: rgba(15, 20, 25, 0.98);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo-text {
+  background: var(--accent-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  color: var(--text-primary); 
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.theme-toggle {
+  color: var(--text-primary); 
+}
+
+
+.section-title {
+  color: var(--text-primary); 
+}
+
+.section-subtitle {
+  color: var(--text-secondary); 
+}
+
+.tech-tag {
+  color: var(--text-primary); 
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.form-input, .form-textarea {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form-input::placeholder, .form-textarea::placeholder {
+  color: var(--text-muted);
+}
